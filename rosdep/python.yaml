@@ -11222,6 +11222,10 @@ python3-zmq:
   nixos: [python3Packages.pyzmq]
   rhel: [python3-zmq]
   ubuntu: [python3-zmq]
+python3-ansi2html:
+  ubuntu:
+    pip:
+      packages: [ansi2html]
 qdarkstyle-pip:
   debian:
     pip: [qdarkstyle]
